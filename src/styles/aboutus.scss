@@ -1,0 +1,32 @@
+#About-us {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(../assets/time-bg.png);
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    background: #004cbd;
+    transform: translate(-50%, -30%);
+    z-index: 0;
+    filter: blur(200px);
+    opacity: 60%;
+  }
+}
+@media screen and (max-width: 280px) {
+  #About-us {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../assets/time-bg.png);
+    padding-bottom: 20px;
+    &::before {
+      transform: translate(0%, -30%);
+    }
+}
+}
