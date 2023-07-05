@@ -3,11 +3,11 @@ import Dev from "../assets/Dev.png";
 import aryan from "../assets/Aryan.jpg";
 import DEEPSHIKHA from "../assets/deepsikha.jpeg";
 import dhruv from "../assets/dhruv.jpeg";
-import muskeshSir from "../assets/Muskesh-sir.jpeg";
-import shashwatSir from "../assets/Shashwat-sir.jpeg";
+import shushilSir from "../assets/shushil-sir.jpeg";
+import pushkarSir from "../assets/pushkar-sir.jpeg";
+import pulkitaMam from "../assets/pulkita-mam.jpeg";
 import CoordinatorCard from "./CoordinatorCard";
 import FacultyCoordinatorCard from "./FacultyCoordinatorCard";
-
 import "../styles/aboutus.scss";
 
 function AboutUs() {
@@ -31,25 +31,27 @@ function AboutUs() {
           data-aos-duration="500"
           data-aos-easing="ease-in-out"
         >
-          Faculty Coordinators
+          Event Organizers
         </h1>
         <div className="flex justify-center items-center bg-transparent flex-wrap gap-10">
           <FacultyCoordinatorCard
-            name="Dr. Mukesh Rawat"
-            position="Prof. & Head - CSE"
-            img={muskeshSir}
+            name="Pushkar Sharan"
+            position="Publicis Sapient, Senior Manager, Cloud COE
+            NOIDA"
+            img={pushkarSir}
             delay="0.5s"
           />
           <FacultyCoordinatorCard
-  name="Dr. Mukesh Rawat"
-  position="Prof. & Head - CSE"
-  img={muskeshSir}
+  name="Sushil Kumar"
+  position="Wayfair, Staff Software Engineer NOIDA"
+  img={shushilSir}
   delay="1.25s"
 />
           <FacultyCoordinatorCard
-            name="Dr. Shashwat Pathak"
-            position="Head ACIC, MIET"
-            img={shashwatSir}
+            name="Pulkita Marwah"
+            position="Searce, Cloud Consultant
+            GURGAON"
+            img={pulkitaMam}
             delay="1.5s"
           />
         </div>

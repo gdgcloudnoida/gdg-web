@@ -16,9 +16,9 @@ function Home() {
   return (
     <div>
       <Header />
-      <Timeline />
-      <Prizes />
-      <Rules />
+      {/*<Timeline />*/}
+      {/*<Prizes />*/}
+      {/*<Rules />*/}
       <Register />
       <Faq/>
       <AboutUs />
