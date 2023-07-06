@@ -78,6 +78,39 @@ function AboutUs() {
             delay="0s"
           />
           <CoordinatorCard
+            name="Dev Chauhan"
+            course="B.Tech"
+            branch="CSIT"
+            year="2nd Year"
+            img={Dev}
+            linkedin="https://www.linkedin.com/in/dev-chauhan-44ba15247/"
+            instagram="https://www.instagram.com/_unknown_code__/"
+            github="https://github.com/devcode8"
+            delay="0s"
+          />
+          <CoordinatorCard
+            name="Dev Chauhan"
+            course="B.Tech"
+            branch="CSIT"
+            year="2nd Year"
+            img={Dev}
+            linkedin="https://www.linkedin.com/in/dev-chauhan-44ba15247/"
+            instagram="https://www.instagram.com/_unknown_code__/"
+            github="https://github.com/devcode8"
+            delay="0s"
+          />
+          <CoordinatorCard
+            name="Dev Chauhan"
+            course="B.Tech"
+            branch="CSIT"
+            year="2nd Year"
+            img={Dev}
+            linkedin="https://www.linkedin.com/in/dev-chauhan-44ba15247/"
+            instagram="https://www.instagram.com/_unknown_code__/"
+            github="https://github.com/devcode8"
+            delay="0s"
+          />
+          <CoordinatorCard
             name="Aryan Gupta"
             course="B.Tech"
             branch="CSIT"

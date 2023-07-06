@@ -22,7 +22,7 @@ function Footer() {
           </a>
           <h1 className="bg-transparent text-3xl">GDG Cloud Noida</h1>
           <p className="bg-transparent text-lg">
-            One of biggest competitive activity , providing an opportunity to
+            One of biggest Event , providing an opportunity to
             showcase your skills and grow with us.
           </p>
         </div>
@@ -59,22 +59,32 @@ function Footer() {
         <h1 className="text-3xl text-white bg-transparent">
           © {new Date().getFullYear()}{" "}
           <a
-            href="https://cxi-miet.github.io/"
+            href="hhttps://gdg.community.dev/gdg-cloud-noida/"
             className="underline bg-transparent text-blue-500"
           >
             CXI
           </a>
-          , Meerut Institute Of Engineering and Technology, Meerut, 250005.
+          , Cloud Catalyst - GDG Cloud Noida - Launch Event
         </h1>
+        <pre>
         <h1 className="text-xl text-white bg-transparent">
           Designed by{" "}
           <a
             href="https://github.com/devcode8"
             className="underline bg-transparent"
           >
-            Dev Chauhan
+            Dev Chauhan 
           </a>
+            . Edited by{" "}
+          <a
+            href="https://github.com/atul120212"
+            className="underline bg-transparent"
+          >
+            Atul Sharma
+          </a>
+          
         </h1>
+        </pre>
       </div>
     </div>
   );

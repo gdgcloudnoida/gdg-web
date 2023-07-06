@@ -32,12 +32,12 @@ function RegisterBtn(props) {
     } else if (round1TimeEnd < todayDate) {
       clearInterval(timer);
       setBtnStyle({
-        "background-color": "Green",
+        "background-color": "Gray",
       });
       setLinkStyle({
         "pointer-events": "none",
       });
-      setBtnName("Register Now");
+      setBtnName("Register Closed");
     }
   }, 1000);
 
