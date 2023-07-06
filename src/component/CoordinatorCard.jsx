@@ -36,7 +36,7 @@ function CoordinatorCard(props) {
               <i className="fa-brands fa-linkedin bg-transparent"></i>
             </a>
           </li>
-          <li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
+          {/*<li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
             <a className="bg-transparent" href={props.instagram} target="blank">
               <i className="fa-brands fa-instagram bg-transparent"></i>
             </a>
@@ -45,7 +45,7 @@ function CoordinatorCard(props) {
             <a className="bg-transparent" href={props.github} target="blank">
               <i className="fa-brands fa-github bg-transparent"></i>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
