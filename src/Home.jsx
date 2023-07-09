@@ -6,6 +6,7 @@ import AOS from "aos";
 
 import "aos/dist/aos.css";
 import AboutGDG from "./component/AboutGDG";
+import Events from "./component/Events";
 
 function Home() {
   AOS.init();
@@ -14,6 +15,7 @@ function Home() {
     <div>
       <Header />
       <AboutGDG/>
+      <Events/>
       <AboutUs />
       <Faq/>
     </div>

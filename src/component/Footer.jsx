@@ -22,29 +22,10 @@ function Footer() {
             href="hhttps://gdg.community.dev/gdg-cloud-noida/"
             className="underline bg-transparent text-blue-500"
           >
-            CXI
+            GDG Cloud Noida
           </a>
-          , Cloud Catalyst - GDG Cloud Noida - Launch Event
         </h1>
-        <pre>
-        <h1 className="text-xl text-white bg-transparent">
-          Designed by{" "}
-          <a
-            href="https://github.com/devcode8"
-            className="underline bg-transparent"
-          >
-            Dev Chauhan 
-          </a>
-            . Edited by{" "}
-          <a
-            href="https://github.com/atul120212"
-            className="underline bg-transparent"
-          >
-            Atul Sharma
-          </a>
-          
-        </h1>
-        </pre>
+        
       </div>
     </div>
   );

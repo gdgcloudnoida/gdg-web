@@ -14,7 +14,7 @@ import logo from "../assets/2.png";
 function Header() {
   return (
     <div className="flex justify-center items-center text-white" id="header">
-      <div className="gradient"></div>
+      {/* <div className="gradient"></div> */}
       <div className="header-container relative flex justify-center items-center flex-wrap">
         <div
           className="header-text bg-transparent uppercase flex items-center justify-center flex-col gap-3"
@@ -28,6 +28,11 @@ function Header() {
           
         </div>
       </div>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     </div>
   );
 }
