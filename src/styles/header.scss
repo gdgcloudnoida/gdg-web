@@ -1,39 +1,44 @@
 #header {
   position: relative;
   width: 100%;
-  min-height: 95vh;
+  min-height: 100vh;
   overflow: hidden;
-  background: url(../assets/time-bg.png);
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1500px;
-    height: 1500px;
-    border-radius: 50%;
-    background: #004cbd;
-    transform: translate(50%, -65%);
-    z-index: 0;
-    filter: blur(150px);
-    opacity: 70%;
-  }
-  > .header-container {
+  background: #fff;
+
+      // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   width: 1500px;
+    //   height: 1500px;
+    //   border-radius: 50%;
+    //   background: yellow;
+    //   transform: translate(50%, -65%);
+    //   z-index: 0;
+    //   filter: blur(150px);
+    //   opacity: 70%;
+    // }
+      
+    > .header-container {
     width: 100%;
     height: 100%;
-    background: transparent;
     z-index: 10;
     gap: 13rem;
+    background: transparent;
+
 
     > .header-text {
       width: 500px;
       font-weight: 600;
       line-height: 1;
       > .frontend-text {
-        font-size: 6rem;
-        background: -webkit-linear-gradient(-90deg, #fff, #8b8b8b);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        font-weight: 600;
+
+        // background: -webkit-linear-gradient(-90deg, #fff, #8b8b8b);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
       }
       > .Showdown-text {
         font-size: 3.75rem;
@@ -63,7 +68,7 @@
       margin-top: 150px;
       padding-bottom: 6rem;
       > .header-text {
-        padding-left:30px;
+        padding-left: 30px;
         > .frontend-text {
           font-size: 4rem;
         }
@@ -97,7 +102,6 @@
 }
 @media screen and (max-width: 280px) {
   #header {
-
     > .header-container {
       margin-top: 120px;
       padding-bottom: 10rem;
@@ -121,8 +125,8 @@
           }
         }
       }
-      >.header-image{
-        >.lang-img{
+      > .header-image {
+        > .lang-img {
           width: 95px;
         }
       }

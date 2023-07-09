@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
-import RegisterBtn from "./RegisterBtn";
-
 
 import logo from "../assets/logo.png";
 
 import "../styles/navbar.scss";
+import "../styles/register.scss";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,16 +20,13 @@ function Navbar() {
   };
   window.addEventListener("scroll", changeNavbarColor);
 
-  
-
   return (
-    <div className="flex justify-center">
+    <nav className="flex justify-center">
       <div
         className={`w-full fixed top-0 left-0 z-50 bg-transparent flex justify-between items-center py-1 ${
           colorChange || showMenu ? "navScroll" : null
         }`}
-        id="navbar"
-      >
+        id="navbar">
         <div
           className="flex items-center cursor-pointer bg-transparent m-5"
           data-aos="zoom-in"
@@ -39,12 +35,12 @@ function Navbar() {
           data-aos-easing="ease-in-out"
         >
           <HashLink className="bg-transparent" to={"/#header"}>
-            <img className="w-20 h-20 bg-transparent" src={logo} alt="Fs" />
+            <img className="w-[150px]  bg-transparent" src={logo} alt="Fs" />
           </HashLink>
         </div>
         <div
           onClick={() => setShowMenu(!showMenu)}
-          className="text-4xl absolute right-8 top-4 cursor-pointer bg-transparent lg:hidden text-white m-5"
+          className="text-4xl absolute right-8 top-4 cursor-pointer bg-transparent lg:hidden text-black m-5"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -62,31 +58,41 @@ function Navbar() {
           data-aos-easing="ease-in-out"
         >
           <li className="text-xl  bg-transparent">
-            <HashLink className="text-white bg-transparent" to={"/#Prizes"}>
+            <HashLink className="text-black bg-transparent" to={"/#Prizes"}>
               Prizes
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
-            <HashLink className="text-white bg-transparent" to={"/#Rules"}>
+            <HashLink className="text-black bg-transparent" to={"/#Rules"}>
               Rules
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
-            <HashLink className="text-white bg-transparent" to={"/#About-us"}>
+            <HashLink className="text-black bg-transparent" to={"/#About-us"}>
               About us
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
-            <HashLink className="text-white bg-transparent" to={"/#Timeline"}>
+            <HashLink className="text-black bg-transparent" to={"/#Timeline"}>
               Timeline
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
-            <HashLink className="text-white bg-transparent" to={"/#FAQ"}>
+            <HashLink className="text-black bg-transparent" to={"/#FAQ"}>
               FAQs
             </HashLink>
           </li>
-          <RegisterBtn name="Register Now" link="#Register" />
+          <HashLink className="bg-transparent" href="#" target="_blank">
+            <button
+              id="btn"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              <span className="bg-transparent">Contact Us</span>
+              <i></i>
+            </button>
+          </HashLink>
         </ul>
       </div>
       <div className="fixed top-28 z-40 w-full">
@@ -142,11 +148,21 @@ function Navbar() {
                 FAQs
               </HashLink>
             </li>
-            <RegisterBtn name="Register Now" link="#Register"/>
+            <a className="bg-transparent" href="#" target="_blank">
+              <button
+                id="btn"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+              >
+                <span className="bg-transparent">Contact Us</span>
+                <i></i>
+              </button>
+            </a>
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

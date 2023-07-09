@@ -2,7 +2,12 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url(../assets/time-bg.png);
+  // background: url(../assets/time-bg.png);
+  // background: #fff;
+  // background-image: radial-gradient(at 15.3% 23.1%, hsl(0, 100%, 50%) 0px, transparent 50%),radial-gradient(at 68.8% 73.9%, hsl(47, 87%, 59%) 0px, transparent 50%),radial-gradient(at 21.3% 76.1%, hsl(207, 100%, 51%) 0px, transparent 50%),radial-gradient(at 73.9% 33.2%, hsl(113, 23%, 56%) 0px, transparent 50%);
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+
   &::before {
     content: "";
     position: absolute;
@@ -11,7 +16,7 @@
     width: 1500px;
     height: 1500px;
     border-radius: 50%;
-    background: #004cbd;
+    // background: #004cbd;
     transform: translate(-50%, -30%);
     z-index: 0;
     filter: blur(200px);
@@ -28,5 +33,5 @@
     &::before {
       transform: translate(0%, -30%);
     }
-}
+  }
 }
