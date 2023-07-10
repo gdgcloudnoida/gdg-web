@@ -57,24 +57,19 @@ function Navbar() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <li className="text-xl  bg-transparent">
-            <HashLink className="text-black bg-transparent" to={"/#Prizes"}>
-              Prizes
-            </HashLink>
-          </li>
-          <li className="text-xl bg-transparent">
-            <HashLink className="text-black bg-transparent" to={"/#Rules"}>
-              Rules
-            </HashLink>
-          </li>
           <li className="text-xl bg-transparent">
             <HashLink className="text-black bg-transparent" to={"/#About-us"}>
-              About us
+              Team
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
-            <HashLink className="text-black bg-transparent" to={"/#Timeline"}>
-              Timeline
+            <HashLink className="text-black bg-transparent" to={"/#event"}>
+              Events
+            </HashLink>
+          </li>
+          <li className="text-xl bg-transparent">
+            <HashLink className="text-black bg-transparent" to={"/#aboutGDG"}>
+              About us
             </HashLink>
           </li>
           <li className="text-xl bg-transparent">
@@ -82,7 +77,7 @@ function Navbar() {
               FAQs
             </HashLink>
           </li>
-          <HashLink className="bg-transparent" href="#" target="_blank">
+          <HashLink className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" target="_blank">
             <button
               id="btn"
               data-aos="zoom-in"
@@ -106,37 +101,28 @@ function Navbar() {
             <li className="text-xl mt-4 bg-transparent">
               <HashLink
                 className="text-white bg-transparent"
-                to={"/#Prizes"}
-                onClick={() => setShowMenu(!showMenu)}
-              >
-                Prizes
-              </HashLink>
-            </li>
-            <li className="text-xl bg-transparent">
-              <HashLink
-                className="text-white bg-transparent"
-                to={"/#Rules"}
-                onClick={() => setShowMenu(!showMenu)}
-              >
-                Rules
-              </HashLink>
-            </li>
-            <li className="text-xl bg-transparent">
-              <HashLink
-                className="text-white bg-transparent"
                 to={"/#About-us"}
                 onClick={() => setShowMenu(!showMenu)}
               >
-                About us
+                Team
               </HashLink>
             </li>
             <li className="text-xl bg-transparent">
               <HashLink
                 className="text-white bg-transparent"
-                to={"/#Timeline"}
+                to={"/#event"}
                 onClick={() => setShowMenu(!showMenu)}
               >
-                Timeline
+                Events
+              </HashLink>
+            </li>
+            <li className="text-xl bg-transparent">
+              <HashLink
+                className="text-white bg-transparent"
+                to={"/#aboutGDG"}
+                onClick={() => setShowMenu(!showMenu)}
+              >
+                About us
               </HashLink>
             </li>
             <li className="text-xl bg-transparent">
@@ -148,7 +134,7 @@ function Navbar() {
                 FAQs
               </HashLink>
             </li>
-            <a className="bg-transparent" href="hb" target="_blank">
+            <a className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" target="_blank">
               <button
                 id="btn"
                 data-aos="zoom-in"
