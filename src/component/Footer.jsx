@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/footer.scss";
-import logo from "../assets/logo.png";
-import cxilogo from "../assets/cxi_logo.png";
 
 function Footer() {
   return (

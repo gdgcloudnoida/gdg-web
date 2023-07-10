@@ -11,7 +11,7 @@ function CoordinatorCard(props) {
       className="team_card_container bg-transparent"
       style={animationdelay}
       data-aos="zoom-in"
-      data-aos-duration="500"
+      data-aos-duration={props.delay}
       data-aos-easing="ease-in-out"
     >
       <div className="team_card bg-transparent">
@@ -24,7 +24,6 @@ function CoordinatorCard(props) {
               {props.name}
               <br />
               <span className="bg-transparent">
-                {props.course} <br /> {props.branch} <br /> {props.year}
                 {props.position}
               </span>
             </h3>

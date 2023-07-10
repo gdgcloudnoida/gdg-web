@@ -27,26 +27,80 @@ function AboutUs() {
       image: zaid,
       name: "MOHD ZAID KHAN",
       team: "Management Team",
-      link: "https://www.linkedin.com/in/zeddkhan03/"
+      link: "https://www.linkedin.com/in/zeddkhan03/",
+      delay:"500"
     },
     {
-      image: zaid,
-      name: "MOHD ZAID KHAN",
+      image: ashish,
+      name: "Ashish chanchal",
       team: "Management Team",
-      link: "https://www.linkedin.com/in/zeddkhan03/"
+      link: "https://www.linkedin.com/in/ashish2002",
+      delay:"1300"
     },
     {
-      image: zaid,
-      name: "MOHD ZAID KHAN",
+      image: gautam,
+      name: "Gautam Manak",
       team: "Management Team",
-      link: "https://www.linkedin.com/in/zeddkhan03/"
+      link: "https://www.linkedin.com/in/gautammanak1/",
+      delay:"2000"
     },
     {
-      image: zaid,
-      name: "MOHD ZAID KHAN",
-      team: "Management Team",
-      link: "https://www.linkedin.com/in/zeddkhan03/"
+      image: Dev,
+      name: "Dev Chauhan",
+      team: "WebApp Team",
+      link: "https://www.linkedin.com/in/dev-chauhan-44ba15247/",
+      delay:"3000"
     },
+    {
+      image: atul,
+      name: "Atul Sharma",
+      team: "WebApp Team",
+      link: "https://www.linkedin.com/in/atul-sharma-11735b1b3/",
+      delay:"500"
+    },
+    {
+      image: ashu,
+      name: "Ashu",
+      team: "Graphic Design Team",
+      link: "https://www.linkedin.com/in/ashu-kr/",
+      delay:"1300"
+    },
+    {
+      image: swati,
+      name: "SWATI PALIWAL",
+      team: "Graphic Design Team",
+      link: "https://www.linkedin.com/in/swati-paliwal-65b4471a2/",
+      delay:"500"
+    },
+    // {
+    //   image: ashutosh,
+    //   name: "Ashutosh Rana ",
+    //   team: "Content Writer Team",
+    //   link: "https://www.linkedin.com/in/ashu-kr/",
+    //   delay:"1300"
+    // },
+    {
+      image: gautam,
+      name: "Javed Ahmed Khan",
+      team: "Management Team",
+      link: "https://www.linkedin.com/in/javedakhan2010",
+      delay:"2000"
+    },
+    {
+      image: Dev,
+      name: "Dev Chauhan",
+      team: "WebApp Team",
+      link: "https://www.linkedin.com/in/dev-chauhan-44ba15247/",
+      delay:"3000"
+    },
+    {
+      image: atul,
+      name: "Atul Sharma",
+      team: "WebApp Team",
+      link: "https://www.linkedin.com/in/atul-sharma-11735b1b3/",
+      delay:"500"
+    },
+    
   ];
   return (
     <div
@@ -101,11 +155,11 @@ function AboutUs() {
             return(
               <CoordinatorCard
             name={data.name}
-            branch={data.team}
+            position={data.team}
             year=""
             img={data.image}
             linkedin={data.link}
-            delay="0s"
+            delay={data.delay}
           />
             )
           })}

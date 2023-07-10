@@ -6,7 +6,7 @@ import "../styles/faq.scss";
 function Faq() {
   const [open, setOpen] = useState(false);
   const toggle = (index) => {
-    if (open == index) {
+    if (open === index) {
       return setOpen(null);
     }
     setOpen(index);

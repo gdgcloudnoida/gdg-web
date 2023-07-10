@@ -98,9 +98,9 @@ function Navbar() {
       <div className="fixed top-28 z-40 w-full">
         <div className="sticky lg:hidden bottom-0 ">
           <ul
-            className={`flex flex-col rounded-br-[300px] absolute ${
-              showMenu ? "top-[13px]" : "top-[-880px]"
-            } transition-all duration-1000 ease-in-out w-full px-10 pb-20 bg-transparent gap-10`}
+            className={`flex flex-col absolute rounded-bl-[70px] ${
+              showMenu ? "right-[-10%]" : "right-[-100%]"
+            } transition-all duration-1000 ease-in-out w-[400px] px-10 pb-20 bg-transparent gap-10`}
             id="navbarTab"
           >
             <li className="text-xl mt-4 bg-transparent">
@@ -148,7 +148,7 @@ function Navbar() {
                 FAQs
               </HashLink>
             </li>
-            <a className="bg-transparent" href="#" target="_blank">
+            <a className="bg-transparent" href="hb" target="_blank">
               <button
                 id="btn"
                 data-aos="zoom-in"
