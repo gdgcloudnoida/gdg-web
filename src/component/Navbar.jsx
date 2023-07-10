@@ -77,7 +77,7 @@ function Navbar() {
               FAQs
             </HashLink>
           </li>
-          <HashLink className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" target="_blank">
+          <a className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" >
             <button
               id="btn"
               data-aos="zoom-in"
@@ -87,7 +87,7 @@ function Navbar() {
               <span className="bg-transparent">Contact Us</span>
               <i></i>
             </button>
-          </HashLink>
+          </a>
         </ul>
       </div>
       <div className="fixed top-28 z-40 w-full">
@@ -134,7 +134,7 @@ function Navbar() {
                 FAQs
               </HashLink>
             </li>
-            <a className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" target="_blank">
+            <a className="bg-transparent" href="https://gdg.community.dev/gdg-cloud-noida/" >
               <button
                 id="btn"
                 data-aos="zoom-in"

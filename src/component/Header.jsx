@@ -1,16 +1,9 @@
 import React from "react";
 
-// import 'particles.js/particles';
 
 import "../styles/header.scss";
 
 
-
-import sketch from "../assets/sketch.png";
-// import html from "../assets/html-logo.png";
-// import css from "../assets/css-logo.png";
-// import js from "../assets/javascript-logo.png";
-// import image from "../assets/header-img.png";
 import logo from "../assets/2.png";
 import ParticlesBg from "./Particles";
 

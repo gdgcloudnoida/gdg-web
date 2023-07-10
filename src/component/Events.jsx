@@ -8,7 +8,7 @@ const Events = () => {
       className="relative w-full min-h-[80vh] flex flex-col items-center gap-7 bg-white"
       id="event"
     >
-      <h1 className="text-5xl font-extrabold m-5">Events</h1>
+      <h1 className="text-5xl font-extrabold m-5 uppercase">Events</h1>
       <div className="container w-[90%]">
         <div className="blog-card">
           <div className="meta">

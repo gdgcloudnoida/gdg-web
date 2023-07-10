@@ -17,7 +17,7 @@
 
 .about-section{
   background: url(../assets/gdg.jpeg) no-repeat left;
-  background-size: 55%;
+  background-size: 85%;
   background-color: #eeee;
   overflow: hidden;
   padding: 100px 0;
@@ -38,16 +38,14 @@
 }
 
 .text{
-  font-size: 13px;
   color: #545454;
-  line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
 }
 
 .skills{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-weight: 700;
   font-size: 13px;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/CoordinatorCard.scss";
 
 function CoordinatorCard(props) {
@@ -17,7 +17,7 @@ function CoordinatorCard(props) {
       <div className="team_card bg-transparent">
         <div className="team_content bg-transparent">
           <div className="imgbox bg-transparent">
-            <img className="bg-transparent" src={props.img} />
+            <img className="bg-transparent" src={props.img} alt="" />
           </div>
           <div className="contentBox bg-transparent">
             <h3 className="bg-transparent">
@@ -31,20 +31,10 @@ function CoordinatorCard(props) {
         </div>
         <ul className="sci bg-transparent">
           <li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
-            <a className="bg-transparent" href={props.linkedin} target="blank">
+            <a className="bg-transparent" href={props.linkedin}>
               <i className="fa-brands fa-linkedin bg-transparent"></i>
             </a>
           </li>
-          {/*<li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
-            <a className="bg-transparent" href={props.instagram} target="blank">
-              <i className="fa-brands fa-instagram bg-transparent"></i>
-            </a>
-          </li>
-          <li className={`bg-transparent ${props.hide ? "hidden" : "block"}`}>
-            <a className="bg-transparent" href={props.github} target="blank">
-              <i className="fa-brands fa-github bg-transparent"></i>
-            </a>
-          </li> */}
         </ul>
       </div>
     </div>

@@ -17,7 +17,7 @@ function FacultyCoordinatorCard(props) {
       <div className="team_card bg-transparent">
         <div className="team_content bg-transparent">
           <div className="imgbox bg-transparent">
-            <img className="bg-transparent" src={props.img} />
+            <img className="bg-transparent" src={props.img} alt="" />
           </div>
           <div className="contentBox bg-transparent">
             <h3 className="bg-transparent">

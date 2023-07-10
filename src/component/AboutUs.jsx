@@ -9,7 +9,10 @@ import gautam from "../assets/Gautam.jpeg";
 import ashu from "../assets/ashu.jpg";
 import harshit from "../assets/harshit.jpg";
 import vishesh from "../assets/vishesh.jpg";
-import sponser1 from "../assets/jetbran.png";
+import Satakshi from "../assets/Satakshi.jpeg";
+import Ashutosh from "../assets/Ashutosh.jpeg";
+import nikhil from "../assets/nikhil.jpeg";
+// import profile from "../assets/profile.webp";
 
 import aniketa from "../assets/aniketa.jpg";
 import ashish from "../assets/Ashish.jpg";
@@ -22,7 +25,7 @@ import FacultyCoordinatorCard from "./FacultyCoordinatorCard";
 import "../styles/aboutus.scss";
 
 function AboutUs() {
-  const data = [
+  const TeamData = [
     {
       image: zaid,
       name: "MOHD ZAID KHAN",
@@ -66,39 +69,74 @@ function AboutUs() {
       delay:"1300"
     },
     {
+      image: aniketa,
+      name: "Aniketa",
+      team: "Design and Social Media Team",
+      link: "https://www.linkedin.com/in/aniketakumari/",
+      delay:"2000"
+    },
+    {
       image: swati,
       name: "SWATI PALIWAL",
       team: "Graphic Design Team",
       link: "https://www.linkedin.com/in/swati-paliwal-65b4471a2/",
+      delay:"3000"
+    },
+    {
+      image: Ashutosh,
+      name: "Ashutosh Rana ",
+      team: "Content Writer Team",
+      link: "https://www.linkedin.com/in/ashu-kr/",
       delay:"500"
     },
-    // {
-    //   image: ashutosh,
-    //   name: "Ashutosh Rana ",
-    //   team: "Content Writer Team",
-    //   link: "https://www.linkedin.com/in/ashu-kr/",
-    //   delay:"1300"
-    // },
     {
-      image: gautam,
+      image: Satakshi,
+      name: "Satakshi Jain ",
+      team: "Management Team",
+      link: "https://www.linkedin.com/in/satakshi-jain-6b9306203",
+      delay:"1300"
+    },
+    {
+      image: javed,
       name: "Javed Ahmed Khan",
       team: "Management Team",
       link: "https://www.linkedin.com/in/javedakhan2010",
       delay:"2000"
     },
     {
-      image: Dev,
-      name: "Dev Chauhan",
-      team: "WebApp Team",
-      link: "https://www.linkedin.com/in/dev-chauhan-44ba15247/",
+      image: harshit,
+      name: "Harshit Goel ",
+      team: "Social Media Team",
+      link: "https://www.linkedin.com/in/harshit-goel-3880a022b",
       delay:"3000"
     },
     {
-      image: atul,
-      name: "Atul Sharma",
-      team: "WebApp Team",
-      link: "https://www.linkedin.com/in/atul-sharma-11735b1b3/",
+      image: shekhar,
+      name: "Shekhar Patel ",
+      team:  "Video Editing Team",
+      link: "https://www.linkedin.com/in/shekhar-patel-149bb0224",
       delay:"500"
+    },
+    {
+      image: arifa,
+      name: "Aarifa",
+      team:  "Sponsorship and Management team ",
+      link: "https://www.linkedin.com/in/aarifa-839a62222",
+      delay:"1300"
+    },
+    {
+      image: vishesh,
+      name: "Vishesh Rai ",
+      team:  "Sponsorship and Management team ",
+      link: "https://www.linkedin.com/in/vishesh-rai-btech-cse/",
+      delay:"2000"
+    },
+    {
+      image: nikhil,
+      name: "NIKHIL VERMA ",
+      team:  "Sponsorship and Management team ",
+      link: "https://www.linkedin.com/in/nikhil-verma-578212189",
+      delay:"3000"
     },
     
   ];
@@ -151,7 +189,7 @@ function AboutUs() {
         </h1>
 
         <div className="flex justify-center items-center bg-transparent flex-wrap gap-10">
-          {data.map(data=>{
+          {TeamData.map(data=>{
             return(
               <CoordinatorCard
             name={data.name}
