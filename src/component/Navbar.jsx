@@ -99,7 +99,7 @@ function Navbar() {
         <div className="sticky lg:hidden bottom-0 ">
           <ul
             className={`flex flex-col absolute rounded-bl-[70px] ${
-              showMenu ? "right-[-10%]" : "right-[-100%]"
+              showMenu ? "right-[-10%]" : "right-[-200%]"
             } transition-all duration-1000 ease-in-out w-[400px] px-10 pb-20 bg-transparent gap-10`}
             id="navbarTab"
           >
