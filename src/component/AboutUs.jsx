@@ -12,7 +12,7 @@ import vishesh from "../assets/vishesh.jpg";
 import Satakshi from "../assets/Satakshi.jpeg";
 import Ashutosh from "../assets/Ashutosh.jpeg";
 import nikhil from "../assets/nikhil.jpeg";
-// import profile from "../assets/profile.webp";
+import kirtika from "../assets/kirtika.jpg";
 
 import aniketa from "../assets/aniketa.jpg";
 import ashish from "../assets/Ashish.jpg";
@@ -137,6 +137,13 @@ function AboutUs() {
       team:  "Sponsorship and Management team ",
       link: "https://www.linkedin.com/in/nikhil-verma-578212189",
       delay:"3000"
+    },
+    {
+      image: kirtika,
+      name: "Kirtika goyal  ",
+      team:  "Social media Team ",
+      link: "https://www.linkedin.com/in/kirtika-goyal",
+      delay:"500"
     },
     
   ];
