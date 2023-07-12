@@ -13,43 +13,35 @@ function Faq() {
   };
   const faqData = [
     {
-      question: "Do i have to pay for registration?",
+      question: "Are Registration/Ticket for the Event(s) paid?",
       answer:
-        "NO. There is no registration fee. Just click on Register Now button to register. ",
+        "Absolutely NO. The Tickets solely depend on your yes to RSVP mail. And the way to get RSVP mail goes through filling out the registration form.",
     },
     {
-      question: "What is the task in competition?",
+      question: "Is GDG Cloud Noida for only Cloud enthusiasts?",
       answer:
-        "You have to prepare webpage(s) focusing on frontend following the given instructions and submit it by the deadline positively.",
+        "Umm, Not entirely. We are a Developer Group for everyone to learn everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API.",
     },
     {
-      question: "Can i team up with other participants?",
-      answer: "NO. Frontend Showdown is a solo participation contest.",
-    },
-    {
-      question: "What are the selection criteria ?",
-      point1:
-        "Any incomplete or duplicate submissions will result in elimination. Elimination(s) may also occur in case of failing/attempt to breach instructions .",
-      point2: "No elimination is the only criteria for clearing ROUND 1.",
-      point3:
-        "Winning ROUND 2 means winning the competition. Selection of winners will be done on different parameters (including effectiveness, good Ui/Ux , responsive tendency, code structuring etc.) and will be declared soon after the ROUND 2.",
-    },
-    {
-      question: "What externals sources can I use ?",
-      point1:
-        "For ROUND 1 , you are NOT allowed to use any external resources ( including any framework , images, cdn links, pre-processors etc. ). Resources and instructions will be provided , ready to download and use.",
-      point2:
-        "For ROUND 2 , you can use resources of your own choice(s), other than the provided resources. ",
-    },
-    {
-      question: "How do i submit my project ?",
+      question:
+        "How should I stay updated with the Upcoming events of GDG Cloud Noida?",
       answer:
-        "Submission form link will be provided in WhatsApp Group. Fill out form and upload your work there within deadline , hit submit and you are all done.",
+        "It’s very simple, just click on the ‘+Join’ button by visiting: https://www.commudle.com/communities/gdg-cloud-noida and you’re good to go to receive all the updates from GDG Cloud Noida through emails.",
     },
     {
-      question: "When will the prize distribution and certifications be done?",
+      question: "What does GDG Cloud Noida Do?",
       answer:
-        "Prize distribution and certifications will be done along with winner announcement within few days after completion of ROUND 2.",
+        "GDG Cloud is a community of developers who are dedicated to helping others learn and connect. GDG organizers plan and host meet-up events on a wide range of technical topics typically on a monthly basis in a location near them.",
+    },
+    {
+      question: "What do we will get by attending GDG Cloud Noida events?",
+      answer:
+        "Besides the knowledge and networking with professionals and like-minded folks, there are some extra goodies for our audience in our time-to-time events.",
+    },
+    {
+      question: "Who can join GDG Cloud Noida Community as a community member?",
+      answer:
+        "Anyone who is interested in learning about Google's technologies, connecting with other developers, and growing their skillset is encouraged to join GDG Cloud Noida.",
     },
   ];
   return (
